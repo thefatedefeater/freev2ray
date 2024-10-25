@@ -192,7 +192,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -202,7 +202,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #6'
+  name: '3,30|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -239,15 +239,32 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '14|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
-  network: tcp
-  port: '39041'
-  server: 183.238.202.173
+  name: 14|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '2095'
+  server: 172.64.167.22
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip15.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 2095
+  server: 104.19.21.71
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip15.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 24|_SG_->🇺🇸_US_美国
@@ -314,7 +331,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '28|🇺🇸_US_美国 #34'
+  name: '28|🇺🇸_US_美国 #33'
   network: ws
   port: 8080
   server: 162.159.1.33
